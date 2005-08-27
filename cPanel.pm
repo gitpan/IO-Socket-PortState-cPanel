@@ -9,8 +9,7 @@ our @ISA = qw(Exporter);
 
 our @EXPORT_OK = qw(check_ports check_inbound check_outbound $inbound $outbound);
 
-our $VERSION = '0.01';
-sub VERSION { $VERSION }
+our $VERSION = '0.02';
 
 our $inbound = { 
    tcp => {
